@@ -16,7 +16,7 @@ services:
      depends_on:
        - db
      image: wordpress:latest
-     ports:
+     ports:  
        - "8000:80"
      volumes: 
        - ./blank-theme:/var/www/html/wp-content/themes/blank-theme
